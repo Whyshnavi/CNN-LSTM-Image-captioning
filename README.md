@@ -50,50 +50,18 @@ rough-score
 📈 Results
 Metric	Score
 BLEU-1	0.454458
+
 BLEU-2	0.199821
+
 BLEU-3	0.095696
+
 BLEU-4	0.041299
+
 METEOR  0.146983
+
 ROUGH-L 0.227503
+
 CIDEr   0.099939
-
-(Replace with your actual scores once you have them)
-
-🧪 How to Run
-bash
-Copy
-Edit
-# Clone the repository
-git clone https://github.com//cnn-lstm-captioning-scratch.git
-cd cnn-lstm-captioning-scratch
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Train the model
-python train.py
-
-# Generate captions
-python generate_caption.py --image_path sample.jpg
-📝 Project Structure
-graphql
-Copy
-Edit
-├── data/               # Raw dataset and processed captions
-├── models/             # Saved CNN and LSTM model files
-├── utils/              # Utility scripts (tokenizer, data loader, etc.)
-├── train.py            # Main training script
-├── generate_caption.py # Caption generation for new images
-├── requirements.txt
-└── README.md
-🎯 Future Enhancements
-🔍 Add attention mechanism (e.g., Bahdanau)
-
-📈 Improve CNN architecture (e.g., more layers, batch norm)
-
-🚀 Integrate a web interface with Flask/Streamlit
-
-🧠 Experiment with Transformer-based decoders
 
 
 📬 Contact
